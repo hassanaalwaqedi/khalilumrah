@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Cairo } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ChatBot from '@/components/ChatBot';
 import './globals.css';
 
 const cairo = Cairo({ subsets: ['arabic'] });
@@ -24,6 +25,7 @@ export default function RootLayout({
         <main className="flex-grow">
           {children}
         </main>
+        <ChatBot />
         <Footer />
       </body>
     </html>

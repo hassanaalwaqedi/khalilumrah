@@ -5,12 +5,14 @@ import TestimonialCard from '@/components/TestimonialCard';
 import { services } from '@/data/services';
 import { packages } from '@/data/packages';
 import Link from 'next/link';
+import WelcomeCard from '@/components/WelcomeCard';
 import { ArrowLeft } from 'lucide-react';
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <WelcomeCard />
 
       {/* Services Section */}
       <section className="py-20 bg-gray-50">
