@@ -47,9 +47,12 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex items-center">
-                        <a href="tel:+967777777777" className="flex items-center gap-2 bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 transition-colors">
+                        <a href="tel:+967733784630" className="flex items-center gap-2 bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 transition-colors">
                             <Phone size={18} />
-                            <span>تواصل معنا</span>
+                            <div className="flex flex-col text-xs">
+                                <span>تواصل معنا</span>
+                                <span dir="ltr">+967 733 784 630</span>
+                            </div>
                         </a>
                     </div>
 

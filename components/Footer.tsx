@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { MapPin, Phone, Mail } from 'lucide-react';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 
 const Footer = () => {
     return (
@@ -48,9 +49,31 @@ const Footer = () => {
                                 <MapPin className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
                                 <span className="text-gray-400 text-sm">اليمن – محافظة ريمة – بني واقد – الزنام</span>
                             </li>
-                            <li className="flex items-center gap-3">
-                                <Phone className="w-5 h-5 text-emerald-500 flex-shrink-0" />
-                                <span className="text-gray-400 text-sm" dir="ltr">+967 777 777 777</span>
+                            <li className="flex flex-col gap-3">
+                                <div className="flex items-start gap-3">
+                                    <Phone className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-1" />
+                                    <div>
+                                        <span className="text-gray-400 text-xs block mb-1">الحج والعمرة:</span>
+                                        <div className="flex items-center gap-2">
+                                            <a href="tel:+967733784630" className="text-gray-300 hover:text-white transition-colors text-sm" dir="ltr">+967 733 784 630</a>
+                                            <a href="https://wa.me/967733784630" target="_blank" rel="noopener noreferrer" className="text-[#25D366] hover:text-emerald-400">
+                                                <WhatsAppIcon className="w-5 h-5" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex items-start gap-3">
+                                    <Phone className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-1" />
+                                    <div>
+                                        <span className="text-gray-400 text-xs block mb-1">السياحة:</span>
+                                        <div className="flex items-center gap-2">
+                                            <a href="tel:+967712859340" className="text-gray-300 hover:text-white transition-colors text-sm" dir="ltr">+967 712 859 340</a>
+                                            <a href="https://wa.me/967712859340" target="_blank" rel="noopener noreferrer" className="text-[#25D366] hover:text-emerald-400">
+                                                <WhatsAppIcon className="w-5 h-5" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="w-5 h-5 text-emerald-500 flex-shrink-0" />

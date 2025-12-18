@@ -32,9 +32,21 @@ export default function ContactPage() {
                                     <Phone size={24} />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-1">الهاتف</h3>
-                                    <p className="text-gray-600" dir="ltr">+967 777 777 777</p>
-                                    <p className="text-gray-600" dir="ltr">+967 711 111 111</p>
+                                    <h3 className="font-bold text-gray-900 mb-2">أرقام التواصل</h3>
+
+                                    <div className="mb-3">
+                                        <span className="text-sm text-gray-500 block mb-1">رقم الحج والعمرة:</span>
+                                        <a href="tel:+967733784630" className="text-emerald-600 font-bold hover:text-emerald-700 text-lg block" dir="ltr">
+                                            +967 733 784 630
+                                        </a>
+                                    </div>
+
+                                    <div>
+                                        <span className="text-sm text-gray-500 block mb-1">رقم السياحة:</span>
+                                        <a href="tel:+967712859340" className="text-emerald-600 font-bold hover:text-emerald-700 text-lg block" dir="ltr">
+                                            +967 712 859 340
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
 
