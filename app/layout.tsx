@@ -7,7 +7,7 @@ import './globals.css';
 const cairo = Cairo({ subsets: ['arabic'] });
 
 export const metadata: Metadata = {
-  title: 'الواقدي للحج والعمرة',
+  title: 'خليل الواقدي للحج والعمرة',
   description: 'خدمات متميزة لضيوف الرحمن - حج، عمرة، ورحلات دينية',
   keywords: 'حج, عمرة, سياحة دينية, الواقدي, اليمن',
 };

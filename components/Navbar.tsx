@@ -27,9 +27,9 @@ const Navbar = () => {
                         <Link href="/" className="flex-shrink-0 flex items-center gap-2">
                             {/* Placeholder for Logo */}
                             <div className="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                                و
+                                خ
                             </div>
-                            <span className="font-bold text-xl text-emerald-800">الواقدي للحج والعمرة</span>
+                            <span className="font-bold text-xl text-emerald-800">خليل الواقدي للحج والعمرة</span>
                         </Link>
                     </div>
 

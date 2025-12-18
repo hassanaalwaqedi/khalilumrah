@@ -9,7 +9,7 @@ const Footer = () => {
 
                     {/* Company Info */}
                     <div className="col-span-1 md:col-span-1">
-                        <h3 className="text-xl font-bold mb-4 text-emerald-500">الواقدي للحج والعمرة</h3>
+                        <h3 className="text-xl font-bold mb-4 text-emerald-500">خليل الواقدي للحج والعمرة</h3>
                         <p className="text-gray-400 text-sm leading-relaxed mb-4">
                             نقدم خدمات متميزة لضيوف الرحمن. خبرة أكثر من 7 سنوات في خدمة الحجاج والمعتمرين.
                             راحتكم هي أولويتنا.
@@ -62,7 +62,7 @@ const Footer = () => {
 
                 <div className="border-t border-gray-800 mt-12 pt-8 text-center">
                     <p className="text-gray-500 text-sm">
-                        © {new Date().getFullYear()} يوسف الواقدي للحج والعمرة. جميع الحقوق محفوظة.
+                        © {new Date().getFullYear()} خليل الواقدي للحج والعمرة. جميع الحقوق محفوظة.
                     </p>
                 </div>
             </div>

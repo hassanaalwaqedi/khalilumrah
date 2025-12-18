@@ -14,7 +14,7 @@ const Hero = () => {
                         شريكك الموثوق في رحلة العمر
                     </span>
                     <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                        الواقدي للحج والعمرة
+                        خليل الواقدي للحج والعمرة
                         <br />
                         <span className="text-emerald-300">خدمة متميزة لضيوف الرحمن</span>
                     </h1>
